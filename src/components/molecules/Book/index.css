@@ -1,0 +1,38 @@
+.c__title {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.c__book_img {
+  width: 150px;
+  height: 100%;
+}
+
+.c__book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: whitesmoke;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.c__book_title {
+  margin: 1rem 0 0.75rem 0;
+  font-size: 1.35rem;
+  font-family: 'Montserrat-Medium';
+}
+
+.c__book_author {
+  margin: 0;
+  font-size: 1rem;
+  color: "#4e4c4c";
+  font-family: 'Montserrat-ThinItalic';
+}
+
+.c__book_description {
+  margin: 1rem 0 0;
+  font-size: 1rem;
+  color: #4b4b4b;
+}
