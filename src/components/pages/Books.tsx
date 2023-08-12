@@ -2,14 +2,14 @@ import { useEffect, useState } from 'react';
 
 import { getBooksList } from '../../services/books';
 
+import Book from '../molecules/Book';
 import Title from '../atoms/Title';
 import Subtitle from '../atoms/Subtitle';
 
+import type { BookProps } from '../molecules/Book/types';
 import type { BooksListResponseSchema, BooksListResult } from '../../services/books/types';
 
 import './index.css';
-import Book from '../molecules/Book';
-import type { BookProps } from '../molecules/Book/types';
 
 const Books = () => {
   const [data, setDate] = useState<BooksListResult | undefined>(undefined);
