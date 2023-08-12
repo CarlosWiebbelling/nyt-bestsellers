@@ -16,6 +16,7 @@ const Book = (props: BookProps) => {
       <img
         src={book_image}
         className='c__book_img'
+        alt={`${title}-book`}
       />
 
       <div className='c__book_title'>
